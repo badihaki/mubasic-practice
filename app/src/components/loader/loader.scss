@@ -1,0 +1,15 @@
+#loader{
+    background-color: rgb(232, 244, 240);
+    color: black;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    transition: 1.5s ease-in-out;
+}
+
+#loader.hidden{
+    background-color: rgb(232, 244, 240);
+    // width: 0vw;
+    height: 0vh;
+}
