@@ -1,0 +1,43 @@
+#loader__left{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#loader__left--block-0{
+    background-color: rgb(232, 244, 240);
+    width: 100%;
+    height: 100%;
+    
+    transition: 950ms ease-in-out;
+}
+
+#loader__left--block-0.hidden{
+    height: 0vh;
+}
+
+#loader__left--block-1{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+
+    transition: 750ms ease-in-out;
+}
+
+#loader__left--block-2{
+    background-color: darksalmon;
+    width: 100%;
+    height: 100%;
+    
+    transition: 550ms ease-in-out;
+}
+
+#loader__left--block-1.hidden{
+    height: 0vh;
+}
+
+#loader__left--block-2.hidden{
+    height: 0vh;
+}
