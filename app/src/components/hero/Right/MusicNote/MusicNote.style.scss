@@ -6,6 +6,8 @@
     margin: 1rem 1rem 1rem 1rem;
 
     justify-content: center;
+
+    transition: 150ms ease-in-out;
 }
 
 #note-a{
@@ -13,8 +15,11 @@
     
     margin-left: 5%;
     width: 75%;
-
+    
     top: 5rem;
+}
+#note-a:hover{
+    margin-left: 10%;
 }
 
 .music-note > p {
