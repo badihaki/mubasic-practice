@@ -4,22 +4,20 @@
 
     height: 12.35%;
     margin: 1rem 1rem 1rem 1rem;
+    width: 100%;
+    left: 2rem;
 
     justify-content: center;
 
     transition: 150ms ease-in-out;
 }
+.music-note:hover{
+    margin-left: 10%;
+}
 
 #note-a{
     background-color: rgb(105, 240, 240);
-    
-    margin-left: 5%;
-    width: 75%;
-    
     top: 5rem;
-}
-#note-a:hover{
-    margin-left: 10%;
 }
 
 .music-note > p {
