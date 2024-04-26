@@ -1,0 +1,39 @@
+#loader__right{
+    width: 50%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#loader__right--letter-container{
+    height: 15%;
+    margin-left: 1rem;
+    transition: ease-in-out 250ms;
+}
+#loader__right--letter-container.hidden{
+    height: 0%;
+}
+span{
+    // position: absolute;
+    font-weight: bolder;
+    font-size: 65px;
+    font-style: italic;
+    color: black;
+    top: 0px;
+    height: 0vh;
+    transition: 250ms ease-in-out;
+}
+span.letter-hidden{
+    color: transparent;
+}
+
+#loader__right--box{
+    height: 85%;
+    transition: 200ms ease-in-out;
+}
+#loader__right--box.full{
+    height: 100%;
+    background-color: rgb(232, 244, 240);
+}

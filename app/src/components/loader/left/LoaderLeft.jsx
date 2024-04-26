@@ -6,7 +6,7 @@ function LeftLoader(){
     const block1Timer = 950;
     
     let block2Class = "hidden";
-    const block2Timer = 1200;
+    const block2Timer = 2300;
     
     
     self.setTimeout(() => {
@@ -17,12 +17,8 @@ function LeftLoader(){
         block0.className = "hidden"
         block1Class = "";
         block1.className = block1Class;
-        console.log(`block class ${block1Class}`);
-        console.log(`classname ${block1.className}`);
-        console.log("trigger 1");
         
         self.setTimeout(() => {
-            console.log("trigger 2");
             block1Class = "hidden";
             block1.className = block1Class;
             
