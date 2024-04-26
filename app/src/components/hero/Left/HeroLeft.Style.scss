@@ -1,0 +1,58 @@
+#hero__left{
+    width: 50%;
+    height: 100%;
+}
+
+.left-top{
+    margin-top: 1rem;
+}
+
+button.icon{
+    background-color: transparent;
+    
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    
+    border: none;
+    margin-left: 1rem;
+}
+
+.left-wrap{
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 10rem;
+
+    margin: 12rem 5rem 5rem 2rem;
+
+    height: 30vh;
+    width: 38.5%;
+}
+p.wrap-block{
+    width: fit-content;
+    height: fit-content;
+
+    word-wrap: break-word;
+    letter-spacing: -3.5px;
+    word-spacing: 15px;
+    line-height: 48.35px;
+
+    font-weight: bolder;
+    font-size: 62px;
+}
+
+.orange-text{
+    color: rgb(255, 128, 0);
+}
+
+.left-bottom{
+    position: absolute;
+    bottom: 35px;
+    width: 32%;
+    margin-left: 1.85rem;
+
+    font-size: 15px;
+    font-weight: 550;
+    line-height: 15px;
+    word-wrap: break-word;
+}
