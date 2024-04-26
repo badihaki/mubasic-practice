@@ -2,10 +2,10 @@
     position: absolute;
     border-radius: 0.5rem;
 
-    height: 12.35%;
+    height: 14.85%;
     margin: 1rem 1rem 1rem 1rem;
     width: 100%;
-    left: 2rem;
+    left: 3.85rem;
 
     justify-content: center;
 
@@ -21,41 +21,43 @@
 }
 #note-b{
     background-color: rgb(255, 218, 115);
-    top: 14rem;
+    top: 13.25rem;
 }
 #note-c{
     background-color: rgb(226, 211, 179);
-    top: 23rem;
+    top: 21.5rem;
 }
 #note-d{
     background-color: rgb(243, 141, 57);
-    top: 32rem;
+    top: 29.75rem;
 }
 #note-e{
     background-color: rgb(206, 174, 236);
-    top: 41rem;
+    top: 38rem;
 }
 #note-x{
     background-color: black;
     top: 9rem;
     left: 35%;
+    height: 15.35%;
 }
 #note-y{
     background-color: black;
-    top: 28rem;
+    top: 25.5rem;
     left: 35%;
+    height: 15.35%;
 }
 
 .music-note > p {
     border-radius: 10px;
     background-color: adjust-hue($color: #2e2e2e3d, $degrees: 90);
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px 15px 25px;
     
     color: white;
     font-size: 18.5px;
     font-weight: 600;
     
     position: absolute;
-    left: 10%;
+    left: 4.5%;
     top: 13%;
 }
