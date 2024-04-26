@@ -12,7 +12,7 @@ export default function LeftHero(){
         </div>
         <div className="left-bottom">
             <p className="details">
-                Haki reverse engineered <a href="https://mubasic-test.webflow.io/">the Mubasic Webapp</a> to make this monstrosity. Audio made with <a href="https://www.audacityteam.org/">Audacity</a>.
+                Haki reverse engineered <a href="https://mubasic-test.webflow.io/" target="_blank" >the Mubasic Webapp</a> to make this monstrosity. Audio made with <a href="https://www.audacityteam.org/" target="_blank" >Audacity</a>.
             </p>
         </div>
     </div>
